@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Registro de usuarios</title>
+  <link rel="stylesheet" type="text/css" href="css/form.css">
+</head>
+<body>
+
+    <nav>
+        <a href="#">
+          <img src="img/acuerdo.png" alt="Logo" />
+          <p>Empresa XYZ</p>
+        </a>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="servicio.html">Servicios</a></li>
+          <li><a href="servicio.html">Contacto</a></li>
+          <li><span>|</span></li>
+          <li><a href="inicio-sesion.html">Inicio de sesión</a></li>
+          <li><a href="registro.html">Registro</a></li>
+        </ul>
+      </nav>
+  <h1>Registro de usuarios</h1>
+  
+  <form id="registroForm">
+    <label for="nombre">Nombres:</label>
+    <input type="text" id="nombre" required>
+    
+    <label for="apellido">Apellidos:</label>
+    <input type="text" id="apellido" required>
+    
+    <label for="correo">Correo electrónico:</label>
+    <input type="email" id="correo" required>
+    
+    <label for="contrasena">Contraseña:</label>
+    <input type="password" id="contrasena" required>
+    
+    <label for="genero">Género:</label>
+    <select id="genero" required>
+      <option value="masculino">Masculino</option>
+      <option value="femenino">Femenino</option>
+      <option value="otro">Otro</option>
+    </select>
+    
+    <button type="submit">Registrarse</button>
+  </form>
+  <script src="js/registro.js"></script>
+</body>
+</html>
