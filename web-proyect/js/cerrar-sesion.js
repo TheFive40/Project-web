@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
         localStorage.removeItem('isLoggedIn');
   
         // Redirige al usuario a la página de inicio
-        window.location.href = 'index.html'; // Cambia esto si la página de inicio tiene un nombre diferente
+        window.location.href = 'index.html'; 
       });
     }
   });
