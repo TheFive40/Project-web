@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const nombreUsuarioElement = document.getElementById('nombreUsuario');
     nombreUsuarioElement.textContent = `Bienvenido, ${nombreUsuario}`;
   
-    // También, puedes actualizar el título (h1)
+     
     const tituloUsuario = document.querySelector('.welcome-container h1');
     tituloUsuario.textContent = `Bienvenido, ${nombreUsuario}`;
   });
